@@ -1,3 +1,4 @@
+/* @import url('https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css'); */
 header {
     background: #7700FF;
 }
@@ -28,4 +29,9 @@ a {
 
 a:hover {
     background: #8E2BFF;
+}
+
+img {
+    float: left;
+    width: 10%;
 }

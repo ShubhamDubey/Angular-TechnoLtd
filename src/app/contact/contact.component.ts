@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-
 import { FormGroup, Validator, FormBuilder, Validators } from '@angular/forms';
 
 @Component({
@@ -13,7 +12,6 @@ export class ContactComponent implements OnInit {
   messageForm: FormGroup;
   submitted = false; // flag for successful form submit
   success = false; // flag for successful validation
-
 
   constructor(private formBuilder: FormBuilder) { }
 
